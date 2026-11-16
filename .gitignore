@@ -1,0 +1,19 @@
+# Build output
+dist/
+steam/scripts/output/
+
+# Godot editor cache (in case a project lives in this repo)
+.godot/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Personal config + generated Steam scripts (both made by `init` / `steam`)
+steamline.toml
+steamline.*.toml
+steam/scripts/*.vdf
+
+# OS junk
+Thumbs.db
+.DS_Store
